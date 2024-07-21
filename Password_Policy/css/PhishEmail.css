@@ -1,0 +1,484 @@
+﻿.phishing-mail-mobile {
+    display: none;
+}
+
+
+.phishing-mail-content {
+    position: absolute;
+    top: 65%;
+    left: 4%;
+}
+
+
+.text-pass{
+	color:#000;
+	}
+
+    .phishing-mail-content a .text-pass {
+        color: #086f93;
+    }
+	 .phishing-mail-content p {
+        color: #000;
+    }
+
+.phishing-mail-title {
+    position: absolute;
+    top: 27.9%;
+    left: 7%;
+    font-size: 14px;
+    padding: 4.1px 0;
+}
+
+.pointer {cursor: pointer;}
+
+    .phishing-mail-title a {
+        color: #000;
+    }
+	
+.phishing-mail-sub a {
+    position: absolute;
+    top: 33.3%;
+    left: 7%;
+    font-size: 14px;
+	 color: #000;
+}
+.phishing-mail-attchment a{
+	 position: absolute;
+    top: 48.3%;
+    left: 4%;
+   /* font-size: 14px;
+	border: 1px solid #aaaaaa;
+    background-color: #ccc;
+	padding:4px;
+		color:#000;*/
+}
+
+.phishing-mail-content p {
+    margin-bottom: 0.2rem;
+}
+
+
+.phishing-mail-content a:hover,
+.phishing-mail-content a:focus {
+    color: #086f93;
+}
+
+span {
+    color: #086f93;
+}
+
+.ins-icon-change {
+    padding: 0.5rem;
+    width: 50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* The actual popup */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 225px;
+        background-color: #ffe082;
+        color: #643b0b;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 149%;
+        left: 50%;
+        margin-left: -27px;
+    }
+
+	  /* The actual popup */
+    .popup .popuptext6 {
+        visibility: hidden;
+        width: 289px;
+        background-color: #ffe082;
+        color: #643b0b;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 116%;
+    left: 79%;
+    margin-left: -46px;
+	}
+	
+	 .popup .popuptext8{
+        visibility: hidden;
+        width:169px;
+        background-color: #ffe082;
+        color: #000;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 149%;
+        left: 18%;
+        margin-left: -27px;
+    }
+	
+	 .popup .popuptext5{
+        visibility: hidden;
+        width:169px;
+        background-color: #ffe082;
+        color: #000;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 149%;
+        left: 26%;
+        margin-left: -27px;
+    }
+	
+	 .popup .popuptext9{
+        visibility: hidden;
+        width:224px;
+        background-color: #ffe082;
+        color: #000;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 149%;
+        left: 18%;
+        margin-left: -27px;
+    }
+	
+		 .popup .popuptext12{
+      
+    visibility: hidden;
+    width: 228px;
+    background-color: #ffe082;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 109%;
+    left: 37%;
+    margin-left: -27px;
+    }
+	
+	
+	
+		 .popup .popuptext7 {
+        visibility: hidden;
+        width:320px;
+        background-color: #ffe082;
+        color: #000;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 149%;
+        left: 10%;
+        margin-left: -27px;
+    }
+	.popup .popuptext11{
+    visibility: hidden;
+    width: 162px;
+    background-color: #ffe082;
+    color: #643b0b;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 7px;
+    position: absolute;
+    z-index: 1;
+    bottom: 118%;
+    left: 8%;
+    margin-left: -28px;
+}
+	
+    .popup .popuptext1 {
+        visibility: hidden;
+        width: 228px;
+        background-color: #ffe082;
+        color: #643b0b;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 149%;
+        left: 50%;
+        margin-left: -62px;
+    }
+
+    .popup .popuptext4 {
+        visibility: hidden;
+        width: 402px;
+		background-color: #ffe082;
+		color: #643b0b;
+		text-align: center;
+    border-radius: 5px;
+    padding: 9px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 104%;
+    left: 59%;
+    margin-left: -60px
+    }
+
+
+    /* Popup arrow */
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+	 .popup .popuptext11::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+	
+	 .popup .popuptext11::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+	.popup .popuptext8::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 38%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+	
+	.popup .popuptext5::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 56%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+	 .popup .popuptext7::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+	
+	.popup .popuptext6::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+
+	 /* Popup arrow */
+    .popup .popuptext4::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+
+    .popup .popuptext1::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+
+	.popup .popuptext9::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+.popup .popuptext12::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 13%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ffe082 transparent transparent transparent;
+    }
+
+
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:430px) and (max-width:768px) {
+	
+.phishing-mail-title {
+    position: absolute;
+    top: 25.9%;
+    left: 7%;
+    font-size: 11px;
+  
+}	
+
+.phishing-mail-sub a {
+    position: absolute;
+    top: 32.3%;
+    left: 7%;
+    font-size: 11px;
+    color: #000;
+}
+}
+
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .ins-icon-change {
+        right: -208px;
+    }
+
+
+    .phishing-mail-desktop {
+        display: none;
+    }
+
+    .phishing-mail-mobile {
+        display: block;
+    }
+
+    .phishing-mail-body1 {
+        display: inline-block;
+        position: relative;
+		
+    }
+	
+	
+
+
+
+        .phishing-mail-body1 .phishing-mail-title1 {
+            position: absolute;
+            top: 17%;
+            left: 2%;
+        }
+
+        .phishing-mail-body1 .phishing-mail-content1 {
+            position: absolute;
+            top: 51%;
+            left: 9px;
+        }
+		
+		.phishing-mail-body1 .phishing-mail-attchment1 a{
+	 position: absolute;
+    top: 40%;
+    left: 9px;
+	border: 1px solid #aaaaaa;
+    background-color: #ccc;
+	color:#000;
+	
+    
+}
+
+
+    .border1 {
+        border-bottom: 1px solid #ccc;
+        width: 135%;
+        padding: 2%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:462px) {
+
+    .border1 {
+        border-bottom: 1px solid #ccc;
+        width: 165%;
+        padding: 2%;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:462px) {
+
+    .border1 {
+        border-bottom: 1px solid #ccc;
+        width: 185%;
+        padding: 2%;
+    }
+}

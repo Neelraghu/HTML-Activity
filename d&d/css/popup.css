@@ -1,0 +1,66 @@
+.fade{
+opacity:1}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.modal-dialog {
+
+    margin: 133px auto;
+	
+}
+
+.modal-content{
+border-radius: .9rem;
+}
+
+.infs-btn-secondary-popup, .infs-btn-secondary-popup:hover {
+   
+    font-size: 14px;
+background: #0161b5;
+color:#fff;
+  padding: 17px 34px;
+    margin: 41px 0 0 0;
+	
+    
+	}
+	
+.modal-footer {
+   
+    display: unset;
+	}
+	
+.modal-body {
+    background-image: url('../images/popup-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding:46px 0;
+	border-radius: .9rem;
+    
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+	
+#myModal .infs-btn-secondary-popup {
+    font-size: 15px;
+	padding: 7px 27px;
+    margin: 21px 0 0 0;
+}	
+#myModal .modal-body{
+	
+	padding:6px 0 !important;
+	
+}
+
+#myModal h5{
+font-size:15px;
+margin-top:12px;	
+}
+}

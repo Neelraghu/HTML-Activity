@@ -1,0 +1,301 @@
+﻿body, html {
+    margin: 0;
+}
+
+#box {
+    /* The box that will responsively resize */
+    position: relative;
+}
+
+    #box img {
+        display: block;
+    }
+
+    #box .static {
+        /* The static image helps responsively resizing the bounding box correctly */
+        width: 100%;
+        height: auto;
+    }
+
+    #box .imgpendrive {
+        /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+        position: absolute;
+        top: 79%;
+        left: 73%;
+        width: 2%;
+        height: auto;
+    }
+
+    #box .imgdocument {
+        /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+        position: absolute;
+        top: 64%;
+        left: 64%;
+        width: 10%;
+        height: auto;
+    }
+
+    #box .imgdeskscreen {
+        /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+        position: absolute;
+        top: 28%;
+        left: 49%;
+        width: 10%;
+        height: auto;
+    }
+
+    #box .imgdustbin {
+        /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+        position: absolute;
+        top: 77%;
+        left: 1%;
+        width: 10%;
+        height: auto;
+    }
+
+    #box .imgdocumentdrawer {
+        /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+        position: absolute;
+        top: 6%;
+        left: 5%;
+        width: 28%;
+        height: auto;
+    }
+	
+	 #box .imgwhiteboard {
+        /* Placing the cat absolutely and with percentage values makes it responsive within the bounding box */
+        position: absolute;
+        top: 11%;
+		left: 66%;
+		width: 7%;
+        height: auto;
+    }
+    /* Popup container - can be anything you want */
+    /* The actual popup */
+    #box .popuptext {
+        visibility: hidden;
+        width: 175px;
+        background-color: #ff960d;
+        color: #643901;
+        text-align: center;
+        border-radius: 5px;
+        padding: 9px 12px;
+        position: absolute;
+        z-index: 1;
+        bottom: 24%;
+        left: 70%;
+    }
+
+    #box .popuptext1 {
+        visibility: hidden;
+        width: 199px;
+        background-color: #ff960d;
+        color: #643901;
+        text-align: center;
+        border-radius: 5px;
+        padding: 6px 8px;
+        position: absolute;
+        z-index: 1;
+        bottom: 39%;
+        left: 61%;
+    }
+
+    #box .popuptext2 {
+        visibility: hidden;
+        width: 168px;
+        background-color: #ff960d;
+        color: #643901;
+        text-align: center;
+        border-radius: 5px;
+        padding: 7px 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 73%;
+        left: 51%;
+    }
+
+    #box .popuptext3 {
+        visibility: hidden;
+        width: 168px;
+        background-color: #ff960d;
+        color: #643901;
+        text-align: center;
+        border-radius: 5px;
+        padding: 7px 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 23%;
+        left: 2%;
+    }
+
+    #box .popuptext4 {
+        visibility: hidden;
+        width: 204px;
+        background-color: #ff960d;
+        color: #643901;
+        text-align: center;
+        border-radius: 5px;
+        padding: 7px 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 86%;
+        left: 9%;
+    }
+	
+	#box .popuptext5{
+        visibility: hidden;
+        width: 204px;
+        background-color: #ff960d;
+        color: #643901;
+        text-align: center;
+        border-radius: 5px;
+        padding: 7px 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 82%;
+        left:50%;
+    }
+    /* Popup arrow */
+    #box .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ff960d transparent transparent transparent;
+    }
+
+    #box .popuptext1::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ff960d transparent transparent transparent;
+    }
+
+    #box .popuptext2::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ff960d transparent transparent transparent;
+    }
+
+    #box .popuptext3::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ff960d transparent transparent transparent;
+    }
+
+    #box .popuptext4::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 21%;
+        margin-left: -5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ff960d transparent transparent transparent;
+    }
+	
+	 #box .popuptext5::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: 5px;
+        border-width: 13px;
+        border-style: solid;
+        border-color: #ff960d transparent transparent transparent;
+    }
+    /* Toggle this class - hide and show the popup */
+    #box .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+    #box .popuptext {
+        width: 99px;
+        font-size: 9px;
+    }
+
+    #box .popuptext1 {
+        width: 118px;
+        font-size: 9px;
+    }
+
+    #box .popuptext2 {
+        width: 118px;
+        font-size: 9px;
+    }
+
+    #box .popuptext3 {
+        width: 118px;
+        font-size: 9px;
+    }
+
+    #box .popuptext4 {
+        width: 118px;
+        font-size: 9px;
+    }
+	  #box .popuptext5 {
+        width: 99px;
+        font-size: 9px;
+    }
+
+        #box .popuptext::after, #box .popuptext1::after, #box .popuptext2::after, #box .popuptext3::after, #box .popuptext4::after,#box .popuptext5::after {
+            border-width: 9px;
+        }
+}
+
+@media screen and (orientation:portrait) {
+    .hide-on-portrait {
+        display: none;
+    }
+
+    .popup11 {
+        background: #E8E8E8;
+        width: 500px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px 10px 20px 20px;
+        font-family: sans-serif;
+    }
+}
+
+

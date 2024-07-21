@@ -1,0 +1,150 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8">
+ <title>Infosys : iSAFE</title>
+<meta content="BlendTrans(Duration=0.01)" http-equiv="Page-Exit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" Content-Type: "text/css"; charset="utf-8">
+<link rel="stylesheet" href="css/font-awesome.min.css" Content-Type: "text/css"; charset="utf-8">
+<link rel="stylesheet" href="css/swipe.css" Content-Type: "text/css"; charset="utf-8">
+<link rel="stylesheet" href="css/aos.css" Content-Type: "text/css"; charset="utf-8">
+<link rel="stylesheet" href="css/infosys.css" Content-Type: "text/css"; charset="utf-8">
+<link href="css/no-scroll.css" rel="stylesheet" Content-Type: "text/css"; charset="utf-8" />  
+<link rel="stylesheet" href="css/folderdocument.css" Content-Type: "text/css"; charset="utf-8">
+<link rel="stylesheet" href="css/popup.css" Content-Type: "text/css"; charset="utf-8">
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+     <script src="js/popup111.min.js"></script>
+    <style>
+        .pointer{cursor: pointer !important; }
+        .ui-widget-content
+        {
+            z-index:1;
+        }
+       .ui-draggable-dragging
+       {
+           opacity:0.8 !important;   
+       }
+        .ui-draggable-dragging img
+       {
+           height:202px;   
+       }
+         .ui-droppable-active img
+       {
+          border:none; 
+       }
+       .ui-droppable-hover img
+       {
+          border:3px dotted red !important; 
+       }
+
+       
+    </style>
+</head>
+<body class="loaded-content mod3titlebg">
+ <div class="hide d-none" id="availableLanguagesContainerBody"><span>video</span> </div>
+<form id="form1" runat="server">
+    <div>
+    <!-- Main Content Activity -->
+  <div class="infs-body-container">
+    <div class="container">
+      <div class="module-title">
+        <h2 class="guidem3title animation-left mb-0">DRAG & DRop THE ITEMS IN AppROpRIATE DRAWERS</h2>
+      </div>
+      <!--Activity Start-->
+      <div class="classification-activity">
+         
+        <div class="row">
+          <div class="col-6 col-md-4 ml-auto">
+            <div class="item-dragable" >
+              <div id="1" class="draggable ui-widget-content text-center">
+                  <img src="images/classification/Source_code.png"  class="pointer" >
+              </div>
+              <div id="2"  class="draggable ui-widget-content text-center d-none">
+                     <img src="images/classification/proposal.png"  class="pointer"/>
+              </div>
+              <div id="3"   class="draggable ui-widget-content text-center d-none">
+                  <img src="images/classification/personal_information.png"  class="pointer">
+              </div>
+              <div id="4"   class="draggable ui-widget-content text-center d-none">
+                  <img src="images/classification/Scope_of_work.png"  class="pointer">
+              </div>
+                <div id="5"   class="draggable ui-widget-content text-center d-none">
+                  <img src="images/classification/information_security_policy.png" class="pointer">
+              </div>
+                <div id="6"   class="draggable ui-widget-content text-center d-none">
+                  <img src="images/classification/Internal_company_Announcement.png" class="pointer">
+              </div>
+                <div id="7"   class="draggable ui-widget-content text-center d-none">
+                  <img src="images/classification/Brochures.png" class="pointer">
+              </div>
+                <div id="8"   class="draggable ui-widget-content text-center d-none">
+                  <img src="images/classification/infosys_com.png" class="pointer">
+              </div>
+            </div>
+              
+          </div>
+            
+          <div class="col-6">
+            <div class="drawers">
+              <div id="drawer-1"  ondragenter="allowDrop(event)">
+              <img   id="div1" src="images/classification/drawer-1.png"></div>
+             <div id="drawer-2"><img  id="div2" src="images/classification/drawer-2.png"></div>
+            <div id="drawer-3"><img  id="div3" src="images/classification/drawer-3.png"></div>
+              <div  id="drawer-4"><img id="div4" src="images/classification/drawer-4.png"></div>
+            </div>
+          </div>
+			<div id="right"></div>
+        </div>
+           
+      </div>
+      <!--Activity End--> 
+    
+  <div id="myModal" class="modal fade" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-body">
+				<h5>You got <span id="score"></span> out of 8 right.</h5>
+				<asp:Button ID="btnStart"  class="btn infs-btn-secondary infs-btn-secondary-popup" OnClick="btnStart_Click" runat="server" Text="CONTINUE" />
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+  
+  <!--<div class="check"><svg  class='checkmark' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 52'><circle class='checkmark_circle_success' cx='26' cy='26' r='25' fill='#7ac142'/><path class='checkmark_check' fill='none' d='M14.1 27.2l7.1 7.2 16.7-16.8'/></svg></div>-->
+  <!-- Foating Instructions -->
+ 
+
+  <!-- Custom Javascript --> 
+  <script type="text/javascript" src="js/infosys-lib.js"></script> 
+  <script type="text/javascript" src="js/aos.js"></script> 
+  <script type="text/javascript" src="js/infosys.js"></script>
+ 
+    <script>
+        $(".infs-instruction").click(function () {
+            $(".infs-instruction").toggleClass("infs-instruction1");
+        });
+
+  </script>
+   <audio id="audiocross">
+  <source src="audio/Wrong.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    <audio id="audiocheck">
+  <source src="audio/Right.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    </div>
+    </form>
+    
+    <script src="js/jquery1.12.1.js" type="text/javascript"></script>
+    <script src="js/touchpunch.js" type="text/javascript"></script>
+     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/DragnDrop.js" type="text/javascript"></script>
+</body>
+</html>
